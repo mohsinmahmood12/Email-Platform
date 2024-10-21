@@ -1,0 +1,10 @@
+Email-Platform-Frontend/node_modules/
+__pycache__/
+*.pyc
+.env
+.venv
+./venv
+
+Email-Platform-Backend/venv/
+
+Email-Platform-Backend/app/core/config.py

@@ -1,0 +1,26 @@
+2024-08-24 22:26:29,029 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:28:56,081 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:29:42,359 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:29:46,639 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:29:55,039 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:29:59,959 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:30:01,532 - app.core.config - INFO - This is an informational message.
+2024-08-24 22:30:02,897 - app.core.config - INFO - This is an informational message.
+2024-09-03 23:05:34,062 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:05:34,080 - custom_email_platform - WARNING - User 1 already has an email setup
+2024-09-03 23:05:56,370 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:05:57,367 - custom_email_platform - ERROR - Failed to get Entri configuration: object dict can't be used in 'await' expression
+2024-09-03 23:07:23,681 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:07:24,714 - custom_email_platform - INFO - Email setup created for user 1
+2024-09-03 23:07:53,705 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:07:53,712 - custom_email_platform - WARNING - User 1 already has an email setup
+2024-09-03 23:08:10,294 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:08:11,443 - custom_email_platform - INFO - Email setup created for user 1
+2024-09-03 23:08:21,737 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:08:21,744 - custom_email_platform - WARNING - User 1 already has an email setup
+2024-09-03 23:08:34,869 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:08:35,880 - custom_email_platform - INFO - Email setup created for user 1
+2024-09-03 23:10:30,420 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:10:31,399 - custom_email_platform - INFO - Email setup created for user 1
+2024-09-03 23:11:28,997 - custom_email_platform - INFO - Setting up email for user 1
+2024-09-03 23:11:29,960 - custom_email_platform - INFO - Email setup created for user 1
