@@ -8,3 +8,4 @@ __pycache__/
 Email-Platform-Backend/venv/
 
 Email-Platform-Backend/app/core/config.py
+email-project.pem
