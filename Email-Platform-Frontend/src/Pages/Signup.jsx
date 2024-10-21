@@ -28,7 +28,7 @@ const Signup = () => {
 
     const handleSubmit = async (values, { setSubmitting, setFieldError }) => {
         try {
-            const response = await axios.post('http://localhost:8000/api/v1/auth/register', {
+            const response = await axios.post('http://35.172.141.151:8000/api/v1/auth/register', {
                 first_name: values.first_name,
                 last_name: values.last_name,
                 primary_email: values.email,

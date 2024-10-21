@@ -32,7 +32,7 @@ async def setup_email(
 
     try:
         # Get Entri configuration
-        callback_url = f"http://localhost:8000/api/v1/email-setup/entri-callback"
+        callback_url = f"http://35.172.141.151:8000/api/v1/email-setup/entri-callback"
         entri_config = entri_service.get_entri_config(
             domain=email_setup.domain_name,
             email=email_setup.email_address,
@@ -121,7 +121,7 @@ async def get_email_setup_status(
     if not email_setup:
         raise HTTPException(status_code=404, detail="Email setup not found")
 
-    entri_config = entri_service.get_entri_config(domain=email_setup.domain_name,email=email_setup.email_address,callback_url="http://localhost:8000/api/v1/email-setup/entri-callback")
+    entri_config = entri_service.get_entri_config(domain=email_setup.domain_name,email=email_setup.email_address,callback_url="http://35.172.141.151:8000/api/v1/email-setup/entri-callback")
 
     return EmailSetupResponse(
         id=email_setup.id,

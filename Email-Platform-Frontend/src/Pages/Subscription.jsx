@@ -18,7 +18,7 @@ const Subscription = () => {
                 ? { subscription_type: 'free', activation_code: activationCode }
                 : { subscription_type: 'paid' };
 
-            const response = await axios.post('http://localhost:8000/api/v1/subscriptions/select', payload, {
+            const response = await axios.post('http://35.172.141.151:8000/api/v1/subscriptions/select', payload, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
                 }

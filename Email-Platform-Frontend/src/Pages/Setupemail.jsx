@@ -22,7 +22,7 @@ const Setupemail = () => {
         setSetupError('');
         setIsEntriLoading(true);
         try {
-            const response = await axios.post('http://localhost:8000/api/v1/email-setup/setup', {
+            const response = await axios.post('http://35.172.141.151:8000/api/v1/email-setup/setup', {
                 domain_name: values.domain,
                 email_address: values.email
             }, {
@@ -59,7 +59,7 @@ const Setupemail = () => {
         const result = event.detail;
 
         try {
-            await axios.post('http://localhost:8000/api/v1/email-setup/entri-callback', result, {
+            await axios.post('http://35.172.141.151:8000/api/v1/email-setup/entri-callback', result, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
                 }

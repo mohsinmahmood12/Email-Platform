@@ -17,7 +17,7 @@ const Activation = () => {
 
     const handleSubmit = async (values, { setSubmitting }) => {
         try {
-            const response = await axios.post('/api/v1/subscriptions/select', {
+            const response = await axios.post('http://35.172.141.151:8000/api/v1/subscriptions/select', {
                 subscription_type: 'free',
                 activation_code: values.activation_code
             }, {

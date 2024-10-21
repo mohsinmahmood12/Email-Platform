@@ -21,7 +21,7 @@ const Login = () => {
 
     const handleSubmit = async (values, { setSubmitting }) => {
         try {
-            const response = await axios.post('http://localhost:8000/api/v1/auth/login', {
+            const response = await axios.post('http://35.172.141.151:8000/api/v1/auth/login', {
                 username: values.email,
                 password: values.password,
             }, {
